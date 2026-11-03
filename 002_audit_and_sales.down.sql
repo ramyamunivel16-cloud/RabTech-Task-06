@@ -1,0 +1,6 @@
+BEGIN;
+DROP PROCEDURE IF EXISTS record_sale(BIGINT, BIGINT, INTEGER, NUMERIC);
+DROP TRIGGER IF EXISTS products_audit_trigger ON products;
+DROP FUNCTION IF EXISTS write_row_audit();
+DROP TABLE IF EXISTS audit_log;
+COMMIT;

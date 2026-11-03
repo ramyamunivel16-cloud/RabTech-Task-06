@@ -1,0 +1,3 @@
+BEGIN;
+DROP MATERIALIZED VIEW IF EXISTS sales_daily_summary;
+COMMIT;
